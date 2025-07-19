@@ -1,0 +1,107 @@
+---
+// filepath: /home/equanta/Documents/OBRAIN/Projects/web/smoggy-satellite/src/pages/blog.astro
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blog | Smoggy Satellite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .blog-container {
+        display: flex;
+        gap: 2rem;
+        margin: 2rem;
+      }
+      .blog-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      .blog-post {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1rem;
+        background: #fafafa;
+        text-align: center;
+      }
+      .blog-post img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 4px;
+        margin-bottom: 0.5rem;
+      }
+      .blog-post-title {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+      .blog-post-desc {
+        font-size: 0.97rem;
+        color: #444;
+        margin-bottom: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Blog</h1>
+      <div class="blog-container">
+        <div class="blog-column">
+          <div class="blog-post">
+            <img src="/home/equanta/Pictures/unnamed.png" alt="Understanding Satellite Data" />
+            <div class="blog-post-title">Understanding Satellite Data</div>
+            <div class="blog-post-desc">Satellites orbiting Earth collect vast amounts of data every day. This post explains how that data is gathered, processed, and used for air quality monitoring.</div>
+          </div>
+          <div class="blog-post">
+            <img src="https://source.unsplash.com/400x200/?pollution,city" alt="Post 2" />
+            <div class="blog-post-title">Urban Air Pollution</div>
+            <div class="blog-post-desc">Cities face unique air quality challenges. Discover the main sources of urban pollution and how satellite data helps track and mitigate these issues.</div>
+          </div>
+          <div class="blog-post">
+            <img src="https://source.unsplash.com/400x200/?forest,smog" alt="Post 3" />
+            <div class="blog-post-title">Forest Fires & Air Quality</div>
+            <div class="blog-post-desc">Forest fires can drastically reduce air quality. Learn how satellites detect smoke plumes and help authorities respond to wildfire events.</div>
+          </div>
+        </div>
+        <div class="blog-column">
+          <div class="blog-post">
+            <img src="https://source.unsplash.com/400x200/?climate,change" alt="Post 4" />
+            <div class="blog-post-title">Climate Change Insights</div>
+            <div class="blog-post-desc">Air quality and climate change are closely linked. This article explores how changes in the atmosphere affect pollution and what satellites reveal about these trends.</div>
+          </div>
+          <div class="blog-post">
+            <img src="https://source.unsplash.com/400x200/?technology,satellite" alt="Post 5" />
+            <div class="blog-post-title">Satellite Technology</div>
+            <div class="blog-post-desc">Modern satellites use advanced sensors to monitor the environment. Find out about the latest technological advancements in satellite-based air quality monitoring.</div>
+          </div>
+          <div class="blog-post">
+            <img src="https://source.unsplash.com/400x200/?data,visualization" alt="Post 6" />
+            <div class="blog-post-title">Visualizing Air Quality</div>
+            <div class="blog-post-desc">Turning raw data into useful information is key. See how visualization techniques make air quality data accessible and actionable for everyone.</div>
+          </div>
+        </div>
+        <div class="blog-column">
+          <div class="blog-post">
+            <img src="https://source.unsplash.com/400x200/?children,air" alt="Post 7" />
+            <div class="blog-post-title">Air Quality & Health</div>
+            <div class="blog-post-desc">Poor air quality can have serious health effects, especially for children and the elderly. Learn about the risks and how to protect your health.</div>
+          </div>
+          <div class="blog-post">
+            <img src="https://source.unsplash.com/400x200/?policy,environment" alt="Post 8" />
+            <div class="blog-post-title">Policy & Action</div>
+            <div class="blog-post-desc">Effective policies are essential for cleaner air. This post discusses recent policy changes and their impact on air quality improvement worldwide.</div>
+          </div>
+          <div class="blog-post">
+            <img src="https://source.unsplash.com/400x200/?community,clean" alt="Post 9" />
+            <div class="blog-post-title">Community Initiatives</div>
+            <div class="blog-post-desc">Communities around the world are taking action to improve air quality. Discover inspiring stories and practical steps you can take locally.</div>
+            <a href="/blog/post-9" class="read-more-link">Read more...</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
